@@ -132,3 +132,12 @@ using System.Xml.Linq;
 //    Console.WriteLine(item);
 //}
 #endregion
+
+#region Question_08
+//8.Sort ProductList by Category ascending, then within each
+//category, sort by UnitPrice descending.
+
+//var SortedProductByCatAndUnitPrice = Source.ProductList.Select(p => p)
+//    .OrderBy(p => p.Category)
+//    .ThenByDescending(p => p.UnitPrice);
+#endregion
