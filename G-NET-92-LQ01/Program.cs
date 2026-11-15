@@ -4,6 +4,7 @@
 #endregion
 
 using LINQ.DataSources;
+using LINQ.Models;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 
@@ -155,4 +156,27 @@ using System.Xml.Linq;
 //{
 //    Console.WriteLine(item);
 //}
+#endregion
+
+
+#region Question_10
+//10.Using QUERY SYNTAX with a compound from clause, list
+//all orders placed in 1997 or later showing CustomerID and
+//OrderDate.
+
+//var Result =
+//    from C in Source.CustomerList
+//    from O in C.Orders
+//    where O.OrderDate.Year >= 1997
+//    select new
+//    {
+//        C.CustomerID,
+//        O.OrderDate
+//    };
+
+//foreach (var item in Result)
+//{
+//    Console.WriteLine($"{item.CustomerID} - {item.OrderDate}");
+//}
+
 #endregion
