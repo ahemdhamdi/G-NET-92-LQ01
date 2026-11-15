@@ -43,3 +43,19 @@ using LINQ.DataSources;
 //}
 
 #endregion
+
+#region Question_03
+//3.Sort all products by UnitPrice (ascending). Print each
+//product's name and price.
+
+////Method Syntax
+//var ProductPrices = Source.ProductList.Select(p => new {p.ProductName,p.UnitPrice })
+//                                      .OrderBy(p => p.UnitPrice);
+
+////Query Syntax
+//var ProductPrices1 = from p in Source.ProductList
+//                orderby p.UnitPrice ascending
+//                select new { p.ProductName, p.UnitPrice };
+
+#endregion
+
