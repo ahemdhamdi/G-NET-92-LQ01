@@ -180,3 +180,10 @@ using System.Xml.Linq;
 //}
 
 #endregion
+
+#region Question_11
+//11.Show position number alongside ProductName
+
+//var ProductsPosition = Source.ProductList.Select((p, i) => $"{i + 1}.{p.ProductName}");
+
+#endregion
