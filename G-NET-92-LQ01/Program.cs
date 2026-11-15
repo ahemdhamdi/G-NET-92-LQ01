@@ -4,6 +4,8 @@
 #endregion
 
 using LINQ.DataSources;
+using System.Text.RegularExpressions;
+using System.Xml.Linq;
 
 #region Question_01
 //1.Get all products from the "Seafood" category. Print each
@@ -74,5 +76,18 @@ using LINQ.DataSources;
 //ProductPriceWithRang = from p in Source.ProductList
 //                       where p.UnitPrice > 10 && p.UnitPrice < 30
 //                       select p;
-                       
+
+#endregion
+
+#region Question_05
+//5.Get all products that are in stock (UnitsInStock > 0) and
+//belong to the "Condiments" category.
+
+//var CondimentsProductsInStock = Source.ProductList.Where(p => p.UnitsInStock > 0 && Regex.IsMatch(p.Category, "Condiments"))
+//                                                  .Select(p => p);
+
+//foreach (var item in CondimentsProductsInStock)
+//{
+//    Console.WriteLine(item);
+//}
 #endregion
