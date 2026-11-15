@@ -187,3 +187,15 @@ using System.Xml.Linq;
 //var ProductsPosition = Source.ProductList.Select((p, i) => $"{i + 1}.{p.ProductName}");
 
 #endregion
+
+#region Question_12
+//Sort first by - word length and then by a
+//case-insensitive sort of the words in an array.
+
+//String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+//var result = Arr.OrderBy(w => w.Length)
+//    .ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+
+
+#endregion
