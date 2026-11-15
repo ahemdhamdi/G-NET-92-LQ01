@@ -141,3 +141,18 @@ using System.Xml.Linq;
 //    .OrderBy(p => p.Category)
 //    .ThenByDescending(p => p.UnitPrice);
 #endregion
+
+#region Question_09
+//9.Get all products from the "Beverages" category, sorted by
+//UnitsInStock descending. Print name and stock.
+
+//var BeveragesProduct = Source.ProductList.Where(p => p.Category== "Beverages")
+//    .OrderByDescending(p => p.UnitsInStock)
+//    .Select(p => new { p.ProductName, p.UnitsInStock });
+
+
+//foreach (var item in BeveragesProduct)
+//{
+//    Console.WriteLine(item);
+//}
+#endregion
