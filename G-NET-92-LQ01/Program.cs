@@ -199,3 +199,19 @@ using System.Xml.Linq;
 
 
 #endregion
+
+#region Question_13
+//13.Create a list of all digits in the array whose second
+//letter is 'i' that is reversed from the order in the
+//original array.
+
+//String[] Arr = { "aPPLE", "AbAcUs", "biRaNcH", "BlUeBeRrY", "CilOvEr", "cHeRry" };
+
+//var result = Arr.Where((w) => w.Length > 1  && w[1] == 'i')
+//                .Reverse();
+
+//foreach (var item in result)
+//{
+//    Console.WriteLine(item);
+//}
+#endregion
