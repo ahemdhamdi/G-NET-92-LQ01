@@ -91,3 +91,30 @@ using System.Xml.Linq;
 //    Console.WriteLine(item);
 //}
 #endregion
+
+#region Question_06
+//6.Create a new anonymous type with three properties:
+//● Name → the product name
+//● Price → the unit price
+//● StockStatus → a string: "Available" if UnitsInStock > 0,
+//otherwise "Out of Stock"
+//● Print the result.
+
+
+//var CheckProducts = Source.ProductList.Select(p => new
+//{
+//    Name = p.ProductName ,
+//    Price = p.UnitPrice ,
+//    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+//});
+
+
+//foreach (var product in CheckProducts)
+//{
+//    Console.WriteLine(
+//        $"{product.Name} | {product.Price} | {product.StockStatus}"
+//    );
+//}
+
+
+#endregion
