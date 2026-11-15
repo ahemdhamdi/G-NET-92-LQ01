@@ -59,3 +59,20 @@ using LINQ.DataSources;
 
 #endregion
 
+#region Question_04
+//4.Get all products where UnitPrice is between 10 and 30
+
+////Method Syntax:-
+//var ProductPriceWithRang = Source.ProductList.Where(p => p.UnitPrice > 10 && p.UnitPrice < 30)
+//                                             .Select(p => p);
+//foreach (var item in ProductPriceWithRang)
+//{
+//    Console.WriteLine(item);
+//}
+
+////Query Syntax:-
+//ProductPriceWithRang = from p in Source.ProductList
+//                       where p.UnitPrice > 10 && p.UnitPrice < 30
+//                       select p;
+                       
+#endregion
